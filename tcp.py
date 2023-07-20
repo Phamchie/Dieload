@@ -1,6 +1,8 @@
-import argparse as arg                                        import socket
+import argparse as arg                                        
+import socket
 import threading
-import os                                                     import colorama
+import os                                                     
+import colorama
 from colorama import Fore
 from colorama import Style
 
