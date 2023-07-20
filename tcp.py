@@ -6,8 +6,10 @@ import colorama
 from colorama import Fore
 from colorama import Style
 
-colorama.init()                                               
-os.system('clear')
+colorama.init()      
+
+os.system('cls' if os.name == 'nt' else 'clear')
+
 print(Fore.RED + """
 ▓█████▄  ██▓▓█████  ██▓     ▒█████   ▄▄▄      ▓█████▄
 ▒██▀ ██▌▓██▒▓█   ▀ ▓██▒    ▒██▒  ██▒▒████▄    ▒██▀ ██▌
